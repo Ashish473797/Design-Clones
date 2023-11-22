@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="relative">
+
+        <!-- Navbar -->
+        <header class="padding-x py-8 absolute z-10 w-full">
+            <nav class="flex justify-between items-center max-container">
+                <a href="/">
+                    <img src="./assets/images/header-logo.svg" alt="logo" width="130" height="29">
+                </a>
+                <ul class="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
+                    <li><a href="#" class="font-montserrat leading-normal text-lg text-slate-gray">Home</a></li>
+                    <li><a href="#" class="font-montserrat leading-normal text-lg text-slate-gray">About Us</a></li>
+                    <li><a href="#" class="font-montserrat leading-normal text-lg text-slate-gray">Product</a></li>
+                    <li><a href="#" class="font-montserrat leading-normal text-lg text-slate-gray">Contact Us</a></li>
+                </ul>
+                <div class="hidden max-lg:block">
+                    <img src="./assets/icons/hamburger.svg" alt="menu" width="25" height="25">
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero-section -->
+        <section class="xl:px-[4vw] wide:padding-r padding-b">
+            <section id="home" class="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container">
+
+                <div class="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
+                    <p class="text-xl font-montserrat text-coral-red">Our Summer Collection</p>
+                    <h1 class="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
+                        <span class="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10 rounded-3xl">
+                          The New Arrival
+                        </span>
+                        <br />
+                        <span class="text-coral-red inline-block mt-3">Nike</span> Shoes
+                    </h1>
+                    <p class="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">Discover Stylish Nike arrivals, qaulity comfort, and innovation for your active life.</p>
+                    <button class="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-coral-red rounded-full text-white border-coral-red">Shop Now <img src="./assets/icons/arrow-right.svg" alt="arrowRight" class="ml-2 rounded-full w-5 h-5"></button>
+                    <div class="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
+                        <div>
+                            <p class="text-4xl font-palanquin font-bold">1k+</p>
+                            <p class="leading-7 font-montserrat text-slate-gray">Brands</p>
+                        </div>
+                        <div>
+                            <p class="text-4xl font-palanquin font-bold">500+</p>
+                            <p class="leading-7 font-montserrat text-slate-gray">Shops</p>
+                        </div>
+                        <div>
+                            <p class="text-4xl font-palanquin font-bold">250k+</p>
+                            <p class="leading-7 font-montserrat text-slate-gray">Customers</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center">
+                    <img src="./assets/images/big-shoe1.png" alt="shoes" width="610" height="500" class="object-contain relative z-10">
+                        <div class="flex sm:gap-6 gap-4 absolute bottom-[-7%] max-sm:px-6">
+                            <div class="border-2 rounded-xl border-coral-red cursor-pointer max-sm:flex-1">
+                                <div class="flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
+                                    <img src="./assets/images/big-shoe1.png" alt="shoes" width="127" height="103" class="object-contain">
+                                </div>   
+                            </div>
+                            <div class="border-2 rounded-xl border-transparent cursor-pointer max-sm:flex-1">
+                                <div class="flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
+                                    <img src="./assets/images/big-shoe2.png" alt="shoes" width="127" height="103" class="object-contain">
+                                </div>
+                            </div>
+                            <div class="border-2 rounded-xl border-transparent cursor-pointer max-sm:flex-1">
+                                <div class="flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
+                                    <img src="./assets/images/big-shoe3.png" alt="shoes" width="127" height="103" class="object-contain">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- PopularProducts -->
+        <section class="padding">
+            <section id='products' class='max-container max-sm:mt-12'>
+                <div class='flex flex-col justify-start gap-5'>
+                  <h2 class='text-4xl font-palanquin font-bold'>
+                    Our <span class='text-coral-red'> Popular </span> Products
+                  </h2>
+                  <p class='lg:max-w-lg mt-2 font-montserrat text-slate-gray'>
+                    Experience top-notch quality and style with our sought-after
+                    selections. Discover a world of comfort, design, and value
+                  </p>
+                </div>
+          
+                <div class='mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14'>
+                    <div class='flex flex-1 flex-col w-full max-sm:w-full'>
+                        <img src='./assets/images/shoe4.svg' alt="shoes" class='w-[282px] h-[282px]' />
+                        <div class='mt-8 flex justify-start gap-2.5'>
+                          <img src="./assets/icons/star.svg" alt='rating icon' width="24" height="24" />
+                          <p class='font-montserrat text-xl leading-normal text-slate-gray'>
+                            (4.5)
+                          </p>
+                        </div>
+                        <h3 class='mt-2 text-2xl leading-normal font-semibold font-palanquin'>
+                          Nike Air Jordan-01
+                        </h3>
+                        <p class='mt-2 font-semibold font-montserrat text-coral-red text-2xl leading-normal'>
+                          $200
+                        </p>
+                    </div>
+                    <div class='flex flex-1 flex-col w-full max-sm:w-full'>
+                        <img src='./assets/images/shoe5.svg' alt="shoes" class='w-[282px] h-[282px]' />
+                        <div class='mt-8 flex justify-start gap-2.5'>
+                          <img src="./assets/icons/star.svg" alt='rating icon' width="24" height="24" />
+                          <p class='font-montserrat text-xl leading-normal text-slate-gray'>
+                            (4.5)
+                          </p>
+                        </div>
+                        <h3 class='mt-2 text-2xl leading-normal font-semibold font-palanquin'>
+                          Nike Air Jordan-01
+                        </h3>
+                        <p class='mt-2 font-semibold font-montserrat text-coral-red text-2xl leading-normal'>
+                          $250
+                        </p>
+                    </div>
+                    <div class='flex flex-1 flex-col w-full max-sm:w-full'>
+                        <img src='./assets/images/shoe6.svg' alt="shoes" class='w-[282px] h-[282px]' />
+                        <div class='mt-8 flex justify-start gap-2.5'>
+                          <img src="./assets/icons/star.svg" alt='rating icon' width="24" height="24" />
+                          <p class='font-montserrat text-xl leading-normal text-slate-gray'>
+                            (4.5)
+                          </p>
+                        </div>
+                        <h3 class='mt-2 text-2xl leading-normal font-semibold font-palanquin'>
+                          Nike Air Jordan-01
+                        </h3>
+                        <p class='mt-2 font-semibold font-montserrat text-coral-red text-2xl leading-normal'>
+                          $201
+                        </p>
+                    </div>
+                    <div class='flex flex-1 flex-col w-full max-sm:w-full'>
+                        <img src='./assets/images/shoe7.svg' alt="shoes" class='w-[282px] h-[282px]' />
+                        <div class='mt-8 flex justify-start gap-2.5'>
+                          <img src="./assets/icons/star.svg" alt='rating icon' width="24" height="24" />
+                          <p class='font-montserrat text-xl leading-normal text-slate-gray'>
+                            (4.5)
+                          </p>
+                        </div>
+                        <h3 class='mt-2 text-2xl leading-normal font-semibold font-palanquin'>
+                          Nike Air Jordan-01
+                        </h3>
+                        <p class='mt-2 font-semibold font-montserrat text-coral-red text-2xl leading-normal'>
+                          $225
+                        </p>
+                    </div>
+                </div>
+              </section>
+        </section>
+
+        <!-- SuperQuality -->
+        <section class="padding">
+            <section
+      id='about-us'
+      class='flex justify-between items-center max-lg:flex-col gap-10 w-full max-container'
+    >
+      <div class='flex flex-1 flex-col'>
+        <h2 class='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>
+          We Provide You
+          <span class='text-coral-red'> Super </span>
+          <span class='text-coral-red'>Quality </span> Shoes
+        </h2>
+        <p class='mt-4 lg:max-w-lg info-text'>
+          Ensuring premium comfort and style, our meticulously crafted footwear
+          is designed to elevate your experience, providing you with unmatched
+          quality, innovation, and a touch of elegance.
+        </p>
+        <p class='mt-6 lg:max-w-lg info-text'>
+          Our dedication to detail and excellence ensures your satisfaction
+        </p>
+        <div class='mt-11'>
+            <button class="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-coral-red rounded-full text-white border-coral-red">View Details <img src="./assets/icons/arrow-right.svg" alt="arrowRight" class="ml-2 rounded-full w-5 h-5"></button>
+        </div>
+      </div>
+
+      <div class='flex-1 flex justify-center items-center'>
+        <img
+          src='./assets/images/shoe8.svg'
+          alt='product detail'
+          width={570}
+          height={522}
+          class='object-contain'
+        />
+      </div>
+    </section>
+        </section>
+
+        <!-- Services -->
+        <section class="padding-x py-10">
+            <section class='max-container flex justify-center flex-wrap gap-9'>
+                <div class='flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-16'>
+                    <div class='w-11 h-11 flex justify-center items-center bg-coral-red rounded-full'>
+                      <img src="assets/icons/truck-fast.svg" alt="service" width="24" height="24" />
+                    </div>
+                    <h3 class='mt-5 font-palanquin text-3xl leading-normal font-bold'>
+                        Free shipping
+                    </h3>
+                    <p class='mt-3 break-words font-montserrat text-lg leading-normal text-slate-gray'>
+                        Enjoy seamless shopping with our complimentary shipping service.
+                    </p>
+                  </div>
+                <div class='flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-16'>
+                    <div class='w-11 h-11 flex justify-center items-center bg-coral-red rounded-full'>
+                      <img src="assets/icons/shield-tick.svg" alt="service" width="24" height="24" />
+                    </div>
+                    <h3 class='mt-5 font-palanquin text-3xl leading-normal font-bold'>
+                        Secure Payment
+                    </h3>
+                    <p class='mt-3 break-words font-montserrat text-lg leading-normal text-slate-gray'>
+                        Experience worry-free transactions with our secure payment options.
+                    </p>
+                  </div>
+                <div class='flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-16'>
+                    <div class='w-11 h-11 flex justify-center items-center bg-coral-red rounded-full'>
+                      <img src="assets/icons/support.svg" alt="service" width="24" height="24" />
+                    </div>
+                    <h3 class='mt-5 font-palanquin text-3xl leading-normal font-bold'>
+                        Love to help you
+                    </h3>
+                    <p class='mt-3 break-words font-montserrat text-lg leading-normal text-slate-gray'>
+                        Our dedicated team is here to assist you every step of the way.
+                    </p>
+                  </div>
+            </section>
+        </section>
+
+        <!-- SpecailOffers -->
+        <section class="padding">
+            <section class='flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container'>
+                <div class='flex-1'>
+                  <img
+                    src="./assets/images/offer.svg"
+                    alt='Shoe Promotion'
+                    width='773'
+                    height='687'
+                    class='object-contain w-full'
+                  />
+                </div>
+                <div class='flex flex-1 flex-col'>
+                  <h2 class='text-4xl font-palanquin font-bold'>
+                    <span class='text-coral-red'>Special </span>
+                    Offer
+                  </h2>
+                  <p class='mt-4 info-text'>
+                    Embark on a shopping journey that redefines your experience with
+                    unbeatable deals. From premier selections to incredible savings, we
+                    offer unparalleled value that sets us apart.
+                  </p>
+                  <p class='mt-6 info-text'>
+                    Navigate a realm of possibilities designed to fulfill your unique
+                    desires, surpassing the loftiest expectations. Your journey with us is
+                    nothing short of exceptional.
+                  </p>
+                  <div class='mt-11 flex flex-wrap gap-4'>
+                    <button class="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-coral-red rounded-full text-white border-coral-red">View details</button>
+                    <button class="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none rounded-full text-gray-500 border-slate-500">Learn more</button>
+                  </div>
+                </div>
+              </section>
+        </section>
+
+        <!-- CustomerReviews -->
+        <section class="bg-pale-blue padding">
+            <section class='max-container'>
+                <h3 class='font-palanquin text-center text-4xl font-bold'>
+                  What Our
+                  <span class='text-coral-red'> Customers </span>
+                  Say?
+                </h3>
+                <p class='m-auto mt-4 max-w-lg  text-center info-text'>
+                  Hear genuine stories from our satisfied customers about their
+                  exceptional experiences with us.
+                </p>
+          
+                <div class='mt-24 flex flex-1 justify-evenly items-center max-lg:flex-col gap-14'>
+                    <div class='flex justify-center items-center flex-col'>
+                        <img
+                          src='./assets/images/customer1.jpeg'
+                          alt='customer'
+                          class='rounded-full object-cover w-[120px] h-[120px]'
+                        />
+                        <p class='mt-6 max-w-sm text-center info-text'>The attention to detail and the quality of the product exceeded my expectations. Highly recommended!</p>
+                        <div class='mt-3 flex justify-center items-center gap-2.5'>
+                          <img
+                            src='./assets/icons/star.svg'
+                            width='24'
+                            height='24'
+                            alt='rating star'
+                            class='object-contain m-0'
+                          />
+                          <p class='text-xl font-montserrat text-slate-gray'>(4.5)</p>
+                        </div>
+                        <h3 class='mt-1 font-palanquin text-3xl text-center font-bold'>
+                            Morich Brown
+                        </h3>
+                      </div>
+                      <div class='flex justify-center items-center flex-col'>
+                        <img
+                          src='./assets/images/customer2.svg'
+                          alt='customer'
+                          class='rounded-full object-cover w-[120px] h-[120px]'
+                        />
+                        <p class='mt-6 max-w-sm text-center info-text'>The product not only met but exceeded my expectations. I'll definitely be a returning customer!</p>
+                        <div class='mt-3 flex justify-center items-center gap-2.5'>
+                          <img
+                          src='./assets/icons/star.svg'
+                          width='24'
+                          height='24'
+                          alt='rating star'
+                          class='object-contain m-0'
+                          />
+                          <p class='text-xl font-montserrat text-slate-gray'>(4.5)</p>
+                        </div>
+                        <h3 class='mt-1 font-palanquin text-3xl text-center font-bold'>
+                            Lota Mongeskar
+                        </h3>
+                      </div>
+                </div>
+              </section>
+        </section>
+
+        <!-- Subscribes -->
+        <section class="padding-x sm:py-32 py-16 w-full">
+            <section
+      id='contact-us'
+      class='max-container flex justify-between items-center max-lg:flex-col gap-10'
+    >
+      <h3 class='text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold'>
+        Sign Up for
+        <span class='text-coral-red'> Updates </span>& Newsletter
+      </h3>
+      <div class='lg:max-w-[40%] w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full'>
+        <input type='text' placeholder='subscribe@nike.com' class='input' />
+        <div class='flex max-sm:justify-end items-center max-sm:w-full'>
+            <button class="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-coral-red rounded-full text-white border-coral-red">Sign Up</button>
+        </div>
+      </div>
+    </section>
+        </section>
+
+        <!-- Footer -->
+        <section class="bg-black padding-x padding-t pb-8">
+            <footer class='max-container'>
+                <div class='flex justify-between items-start gap-20 flex-wrap max-lg:flex-col'>
+                  <div class='flex flex-col items-start'>
+                    <a href='/'>
+                      <img
+                        src='./assets/images/footer-logo.svg'
+                        alt='logo'
+                        width='150'
+                        height='46'
+                        class='m-0'
+                      />
+                    </a>
+                    <p class='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
+                      Get shoes ready for the new term at your nearest Nike store. Find
+                      Your perfect Size In Store. Get Rewards
+                    </p>
+                    <div class='flex items-center gap-5 mt-8'>
+                        <div class='flex justify-center items-center w-12 h-12 bg-white rounded-full'>
+                        <img src='./assets/icons/facebook.svg' alt='facebook' width='24' height='24' />
+                        </div>
+                        <div class='flex justify-center items-center w-12 h-12 bg-white rounded-full'>
+                        <img src='./assets/icons/twitter.svg' alt='facebook' width='24' height='24' />
+                        </div>
+                        <div class='flex justify-center items-center w-12 h-12 bg-white rounded-full'>
+                        <img src='./assets/icons/instagram.svg' alt='facebook' width='24' height='24' />
+                        </div>
+                    </div>
+                  </div>
+          
+                  <div class='flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap'>
+                    
+                      <div>
+                        <h4 class='font-montserrat text-2xl leading-normal font-medium mb-6 text-white'>
+                          Products
+                        </h4>
+                        <ul>
+                            <li
+                              class='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
+                            >
+                              <a href="#">Air Force 1</a>
+                            </li>
+                            <li
+                              class='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
+                            >
+                              <a href="#">Air Max 1</a>
+                            </li>
+                            <li
+                              class='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
+                            >
+                              <a href="#">Air Jordan 1
+                              </a>
+                            </li>
+                            <li
+                              class='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
+                            >
+                              <a href="#">Air Force 2</a>
+                            </li>
+                            <li
+                              class='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
+                            >
+                              <a href="#">Nike Waffle Racer</a>
+                            </li>
+                            <li
+                              class='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
+                            >
+                              <a href="#">Nike Cortez</a>
+                            </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <h4 class='font-montserrat text-2xl leading-normal font-medium mb-6 text-white'>
+                          Help
+                        </h4>
+                        <ul>
+                            <li
+                              class='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
+                            >
+                              <a href="#">About us</a>
+                            </li>
+                            <li
+                              class='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
+                            >
+                              <a href="#">FAQs</a>
+                            </li>
+                            <li
+                              class='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
+                            >
+                              <a href="#">How it works
+                              </a>
+                            </li>
+                            <li
+                              class='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
+                            >
+                              <a href="#">Privacy policy</a>
+                            </li>
+                            <li
+                              class='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
+                            >
+                              <a href="#">Payment policy</a>
+                            </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <h4 class='font-montserrat text-2xl leading-normal font-medium mb-6 text-white'>
+                          Get in touch
+                        </h4>
+                        <ul>
+                            <li
+                              class='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
+                            >
+                              <a href="#">customer@nike.com</a>
+                            </li>
+                            <li
+                              class='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
+                            >
+                              <a href="#">+92554862354</a>
+                            </li>
+                        </ul>
+                      </div>
+                    
+                  </div>
+                </div>
+          
+                <div class='flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center'>
+                  <div class='flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer'>
+                    <img
+                      src='./assets/icons/copyright-sign.svg'
+                      alt='copyright sign'
+                      width='20'
+                      height='20'
+                      class='rounded-full m-0'
+                    />
+                    <p>Copyright. All rights reserved.</p>
+                  </div>
+                  <p class='font-montserrat cursor-pointer'>Terms & Conditions</p>
+                </div>
+              </footer>
+        </section>
+
+    </main>
+</body>
+</html>
