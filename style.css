@@ -59,7 +59,7 @@ html, body{
 
 @media screen and (max-width: 640px) {
     html, body{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .btn-wrapper{
         grid-template-columns: repeat(1, 1fr);
