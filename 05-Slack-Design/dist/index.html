@@ -16,7 +16,7 @@
     />
   </head>
   <body>
-    <main class="bg-primary w-[100%] font-montserrat overflow-hidden">
+    <main class="bg-primary w-[100%] font-montserrat overflow-hidden max-[768px]:h-[860px]">
 
       <header class="w-[100%] flex justify-center text-white text-sm font-semibold">
         <nav class="w-[1230px] max-w-[100%] flex py-4 px-2 lg:px-0 justify-between items-center">
@@ -45,12 +45,17 @@
       </header>
 
       <section class="w-[1230px] max-w-[100%] mx-auto grid grid-cols-[100%] lg:grid-cols-[56%_42%] gap-2 lg:py-6 lg:pb-20">
-        <div class="py-4 pr-4 text-center lg:text-left">
-          <h1 class="font-poppins text-[3.5rem] font-semibold text-white leading-[1.2]">Made for people.<span class="text-dark-yellow">Built for productivity.</span></h1>
-          <p class="text-white font-semibold mt-3 text-lg">Connect the right people, find anything that you need and automate the rest. That’s work in Slack, your productivity platform.</p>
+        <div class="py-4 pt-8 lg:py-4 px-4 lg:pl-0 text-center lg:text-left">
+          <h1 class="font-poppins text-[2.4rem] lg:text-[3.5rem] font-semibold text-white leading-[1.2] max-w-[38rem]">Made for people. <span class="text-dark-yellow">Built for productivity.</span></h1>
+          <p class="text-white font-medium mt-3 lg:text-lg text-[1rem] max-w-[38rem]">Connect the right people, find anything that you need and automate the rest. That’s work in Slack, your productivity platform.</p>
+          <div class="flex flex-col lg:flex-row gap-4 text-sm font-semibold mt-8 mb-8 lg:mb-4">
+            <button class="bg-white py-4 px-8 rounded-sm text-primary">SIGN UP WITH EMAIL ADDRESS</button>
+            <button class="flex gap-12 lg:gap-4 items-center bg-blue py-1 px-6 pl-1 rounded-sm text-white"><div class="p-[0.9rem] rounded-sm bg-white"><img src="./assets/images/google-icon.svg" class="" alt="google" width="20"></div>SIGN UP WITH GOOGLE</button>
+          </div>
+          <p class="text-white text-lg font-medium hidden lg:block">Slack is free to try for as long as you like</p>
         </div>
         <div>
-          <video class="max-w-[700px] object-contain inline-block" src="./assets/videos/video1.mp4" muted autoplay loop></video>
+          <video class="max-w-[700px] object-contain" src="./assets/videos/video1.mp4" muted autoplay loop></video>
         </div>
       </section>
 
