@@ -534,6 +534,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -544,6 +548,14 @@ video {
 
 .right-0 {
   right: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.left-1 {
+  left: 0.25rem;
 }
 
 .order-2 {
@@ -986,6 +998,16 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -1411,12 +1433,24 @@ video {
     position: absolute;
   }
 
+  .max-md\:relative {
+    position: relative;
+  }
+
   .max-md\:right-0 {
     right: 0px;
   }
 
   .max-md\:float-right {
     float: right;
+  }
+
+  .max-md\:clear-left {
+    clear: left;
+  }
+
+  .max-md\:clear-right {
+    clear: right;
   }
 
   .max-md\:inline-block {
@@ -1537,6 +1571,18 @@ video {
 @media not all and (min-width: 640px) {
   .max-sm\:block {
     display: block;
+  }
+
+  .max-sm\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
+  .max-sm\:pl-8 {
+    padding-left: 2rem;
+  }
+
+  .max-sm\:pl-12 {
+    padding-left: 3rem;
   }
 }
 
