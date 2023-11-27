@@ -1,17 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Slack-Design</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
-<body>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main class="bg-primary w-[100%] font-montserrat overflow-hidden">
 
-</body>
+      <header class="w-[100%] flex justify-center text-white text-sm font-semibold">
+        <nav class="w-[1230px] max-w-[100%] flex py-4 px-2 lg:px-0 justify-between items-center">
+          <div>
+            <img src="./assets/images/dark-logo-txt.svg" alt="logo" />
+          </div>
+          <div class="flex gap-48">
+            <ul class="hidden lg:flex gap-6">
+              <li>Features <i class="relative fa-solid fa-angle-down fa-xs top-[2px]"></i></li>
+              <li>Solutions <i class="relative fa-solid fa-angle-down fa-xs top-[2px]"></i></li>
+              <li class="hover:underline">Enterprise</li>
+              <li>Resources <i class="relative fa-solid fa-angle-down fa-xs top-[2px]"></i></li>
+              <li class="hover:underline">Pricing</li>
+            </ul>
+            <div class="flex items-center gap-6">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                <a href="#" class="hover:underline hidden lg:block">Sign in</a>
+                <div class="block lg:hidden"><i class="fa-solid fa-bars fa-lg"></i></div>
+            </div>
+          </div>
+          <div class="hidden lg:flex gap-4">
+            <button class="px-4 py-3 outline outline-1 outline-white hover:outline-2 hover:transition-all hover:duration-300 rounded-md md:hidden xl:block">TALK TO SALES</button>
+            <button class="px-4 py-3 bg-white outline outline-1 outline-white hover:outline-2 hover:outline-primary hover:transition-all rounded-md  text-primary">TRY FOR FREE</button>
+          </div>
+        </nav>
+      </header>
+
+      <section class="w-[1230px] max-w-[100%] mx-auto grid grid-cols-[100%] lg:grid-cols-[56%_42%] gap-2 lg:py-6 lg:pb-20">
+        <div class="py-4 pr-4 text-center lg:text-left">
+          <h1 class="font-poppins text-[3.5rem] font-semibold text-white leading-[1.2]">Made for people.<span class="text-dark-yellow">Built for productivity.</span></h1>
+          <p class="text-white font-semibold mt-3 text-lg">Connect the right people, find anything that you need and automate the rest. That’s work in Slack, your productivity platform.</p>
+        </div>
+        <div>
+          <video class="max-w-[700px] object-contain inline-block" src="./assets/videos/video1.mp4" muted autoplay loop></video>
+        </div>
+      </section>
+
+    </main>
+  </body>
 </html>
