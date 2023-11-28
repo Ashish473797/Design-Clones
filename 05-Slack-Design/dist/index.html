@@ -121,7 +121,7 @@
     </div>
 
     <!-- feedback section -->
-    <section class="w-[1230px] max-w-[100%] mx-auto pt-20 pb-16 flex flex-col gap-12 items-center">
+    <section class="w-[1230px] max-w-[100%] mx-auto pt-20 pb-16 px-2 flex flex-col gap-12 items-center">
       <div class="flex flex-col gap-4">
         <div>
           <h2 class="text-center text-black lg:text-[3rem] text-[2.4rem] font-semibold leading-[1] font-poppins">Teams large and small rely on Slack</h2>
@@ -129,12 +129,12 @@
         <div>
           <p class="text-center text-[1.2rem]">Slack securely scales up to support collaboration at the world’s biggest companies.</p>
         </div>
-        <div class="flex justify-center gap-2 pt-4">
+        <div class="flex flex-col lg:flex-row justify-center gap-2 pt-4">
           <button class="py-4 px-10 bg-secondary rounded-md text-white font-medium text-[1rem] ">MEET SLACK FOR ENTERPRISE</button>
           <button class="py-4 px-10 outline outline-1 outline-secondary rounded-md text-secondary font-medium text-[1rem] ">TALK TO SALES</button>
         </div>
       </div>
-      <div class="flex justify-around w-[100%]">
+      <div class="flex flex-col lg:flex-row items-center text-center lg:text-left gap-4 lg:justify-around w-[100%]">
         <div class="w-[190px]">
           <h2 class="text-[3.6rem] font-bold text-secondary">85%</h2>
           <p class="text-[.9rem] font-medium">of users say that Slack has improved communication</p>
@@ -151,7 +151,18 @@
     </section>
 
     <!-- customer story section -->
-
+    <section class="w-[100%] max-w-[1520px] mx-auto flex flex-1 lg:flex-row flex-col items-center gap-2 pt-4 pb-14">
+      <div class="pt-4 pb-4 object-contain basis-[100%] lg:basis-[50%] relative">
+        <video class="max-w-[100%] max-h-auto rounded-r-full relative" src="./assets/videos/video5.mp4" muted autoplay loop></video>
+        <div class="py-5 px-10 bg-blue text-white absolute rounded-sm bottom-[46%] left-[44%]"><i class="fa-solid fa-play fa-lg"></i></div>
+      </div>
+      <div class="py-4 lg:py-16 pl-6 lg:pl-12 pr-6 basis-[100%] lg:basis-[50%]">
+        <h4 class="text-2xl lg:text-3xl font-light italic pt-2">‘Many technology employees were gravitating naturally to Slack. So we followed our users to what has become one of our most important tools.’</h4>
+        <h2 class="mt-6 font-bold">Matt Beal</h2>
+        <p class="mt-2 mb-6 font-medium">Director of Technology Strategy and Architecture, Vodafone</p>
+        <a href="#" class="text-lg text-regular-blue relative before:content-[''] before:absolute before:bottom-[-6px] before:left-0 before:w-[0%] before:h-[1px] before:bg-regular-blue before:transition-all hover:before:w-[100%]">See more customer stories <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+    </section>
 
 
     <!-- card sections -->
@@ -238,8 +249,92 @@
   </section>
 
     <!-- try for free section  -->
+    <section class="max-w-[100%] overflow-hidden">
+      <div class="w-[100%] flex justify-center lg:py-24 py-12 max-sm:pb-20 max-sm:pt-4 bg-secondary-dark " style="clip-path: ellipse(75% 100% at center top);">
+        <div class="p-2">
+          <div>
+            <h2 class="lg:text-[2.8rem] text-[2rem] font-bold text-white text-center">See all that you can accomplish with Slack</h2>
+          </div>
+          <div class="flex flex-col lg:flex-row mt-4 justify-center gap-2">
+            <button class="px-10 py-4 text-secondary-dark bg-white font-medium rounded-sm">TRY FOR FREE</button>
+            <button class="px-10 py-4 text-white border border-white font-medium rounded-sm">TALK TO SALES</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- footer section  -->
+    <footer class="flex justify-center pt-16 pb-6 text-sm font-medium">
+      <div class="px-6 md:px-0 max-w-[1400px] w-full">
+          <div class="w-full px-0 md:px-16 flex flex-col lg:flex-row gap-10">
+              <div class="lg:w-[15%]">
+                  <img class="" src="./assets/images/dark-logo.svg" alt="">
+              </div>
+              <div class="md:grid flex flex-col gap-10 md:grid-cols-5 md:grid-rows-1 lg:w-[85%]">
+                  <ul class="flex flex-col gap-5">
+                      <li class=" font-semibold">WHY SLACK?</li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Slack vs email</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Channels</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Engagement</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Scale</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Watch the demo</a></li>
+                  </ul>
+                  <ul class="flex flex-col gap-5">
+                      <li class=" font-semibold">PRODUCT</li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Features</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Channels</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Integrations</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Enterprise</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Solutions</a></li>
+                  </ul>
+                  <ul class="flex flex-col gap-5">
+                      <li class=" font-semibold">PRICING</li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Subscriptions</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Paid vs free</a></li>
+                  </ul>
+                  <ul class="flex flex-col gap-5">
+                      <li class=" font-semibold">RESOURCES</li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Partners</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Developers</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Community</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Apps</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Blog</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Help Centre</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Events</a></li>
+                  </ul>
+                  <ul class="flex flex-col gap-5">
+                      <li class=" font-semibold">COMPANY</li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">About us</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Leadership</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">News</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Media kit</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Careers</a></li>
+                      <li><a class="text-gray hover:text-blue-900" href="#">Slack shop</a></li>
+                  </ul>
+              </div>
+            </div>
+            <hr class="border border-slate-200 mt-16 mb-8 w-[90%] mx-auto">
+            <div class="w-[90%] mx-auto flex flex-col lg:flex-row gap-8 justify-between text-black font-medium">
+              <div class="flex gap-4 flex-wrap">
+                <div>Status</div>
+                <div>Privacy</div>
+                <div>Terms</div>
+                <div class="flex gap-1"><img src="./assets/images/yes-no.svg" width="28" alt="yes-no">Your privacy choices</div>
+                <div>Cookie preferences</div>
+                <div>Contact us</div>
+                <div><i class="fa-solid fa-globe"></i> Change region <i class="relative fa-solid fa-angle-down fa-xs top-[2px]"></i></div>
+              </div>
+              <div class="flex gap-4">
+                <a href="#" class="flex items-center gap-1 text-regular-blue"><i class="fa-solid fa-cloud-arrow-down fa-lg"></i> Download Slack</a>
+                <img class="w-[16px]" src="./assets/images/twitter.svg" alt="Contact">
+                <img class="w-[16px]" src="./assets/images/facebook.svg" alt="Contact">
+                <img class="w-[16px]" src="./assets/images/youtube.svg" alt="Contact">
+                <img class="w-[16px]" src="./assets/images/linkedin.svg" alt="Contact">
+              </div>
+            </div>
+            <p class="mt-8 text-[0.8rem] font-normal text-slate-500 w-[90%] mx-auto">©2023 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by their respective owners.</p>
+      </div>
+  </footer>
 
   </body>
 </html>
