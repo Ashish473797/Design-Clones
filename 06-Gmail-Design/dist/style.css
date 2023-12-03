@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -532,6 +532,15 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+}
+
+.font-poppins {
+  font-family: Poppins, sans-serif;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
 }
 
 * {
