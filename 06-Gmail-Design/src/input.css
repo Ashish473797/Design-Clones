@@ -8,3 +8,12 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar{
+    width: 12px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #D0D0D0;
+}
