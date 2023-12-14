@@ -602,8 +602,8 @@ video {
   width: 100vw;
 }
 
-.w-\[16vw\] {
-  width: 16vw;
+.w-\[240px\] {
+  width: 240px;
 }
 
 .w-\[24px\] {
@@ -624,18 +624,6 @@ video {
 
 .w-\[90px\] {
   width: 90px;
-}
-
-.w-\[200px\] {
-  width: 200px;
-}
-
-.w-\[2px\] {
-  width: 2px;
-}
-
-.w-\[240px\] {
-  width: 240px;
 }
 
 .flex-col {
@@ -842,8 +830,12 @@ video {
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: #A0A0A0;
+  background-color: transparent;
   border-radius: 24px;
+}
+
+#leftMenu:hover::-webkit-scrollbar-thumb{
+  background-color: #A0A0A0;
 }
 
 .hover\:bg-\[\#E5E5E5\]:hover {
