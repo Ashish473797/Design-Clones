@@ -21,3 +21,7 @@
 #leftMenu:hover::-webkit-scrollbar-thumb{
     background-color: #A0A0A0;
 }
+
+#videoSection::-webkit-scrollbar-thumb{
+    background-color: #606060;
+}
