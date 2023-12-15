@@ -678,6 +678,14 @@ video {
   height: calc(100% - 57px);
 }
 
+.h-\[9\%\] {
+  height: 9%;
+}
+
+.h-\[94\%\] {
+  height: 94%;
+}
+
 .w-\[10\%\] {
   width: 10%;
 }
@@ -983,6 +991,11 @@ video {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pb-4 {
@@ -1320,6 +1333,10 @@ video {
   .md\:pr-4 {
     padding-right: 1rem;
   }
+
+  .md\:pr-0 {
+    padding-right: 0px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1337,5 +1354,9 @@ video {
 
   .lg\:pl-6 {
     padding-left: 1.5rem;
+  }
+
+  .lg\:pr-0 {
+    padding-right: 0px;
   }
 }
