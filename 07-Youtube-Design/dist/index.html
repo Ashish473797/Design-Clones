@@ -12,7 +12,7 @@
 
 </head>
 <body class="dark">
-    <main class="w-[100vw] h-[100vh] bg-primary-light-theme dark:bg-primary-dark-theme dark:text-primary-dark-text text-primary-light-text font-roboto">
+    <main class="w-[100vw] h-[100vh] bg-primary-light-theme dark:bg-primary-dark-theme dark:text-primary-dark-text text-primary-light-text font-roboto overflow-hidden">
         
         <!-- nav section  -->
         <nav class="flex justify-between items-center px-1 md:px-4 py-1 md:py-2">
@@ -259,7 +259,8 @@
 
 
         <!-- right-section  -->
-        <section class="inline-flex flex-col absolute px-4 md:pl-4 md:pr-0 lg:pl-6 lg:pr-0 pt-3 w-[100%] lg:w-[calc(100%-240px)] h-[92vh]">
+        <section class="inline-flex flex-col absolute px-0 md:pl-4 md:pr-0 lg:pl-6 lg:pr-0 pt-3 w-[100%] lg:w-[calc(100%-240px)] h-[92vh]">
+
             <div class="hidden lg:flex gap-3 w-[98%] overflow-x-auto">
                 <span class="px-3 py-[0.35rem] rounded-lg bg-primary-dark-theme dark:bg-primary-light-theme text-primary-dark-text dark:text-primary-dark-theme text-sm font-medium">All</span>
                 <span class="px-3 py-[0.35rem] rounded-lg bg-[#f0f0f0] hover:bg-[#e5e5e5] dark:bg-[#222] dark:hover:bg-[#3d3d3d] text-sm">Cricket</span>
@@ -281,7 +282,7 @@
                 
             </div>
 
-            <div id="videoSection" class="grid justify-center sm:grid-cols-2 md:grid-cols-3  gap-4 w-[100%] h-[94%] md:[92%] py-4 md:py-6 pr-2 md:pr-4 overflow-y-auto" >
+            <div id="videoSection" class="max-sm:pl-2 grid justify-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-4 w-[100%] h-[100%] lg:h-[92%] py-4 md:py-6 pr-2 md:pr-4 overflow-y-auto" >
 
                 
                 <div class="inline-block h-[344px] max-w-[100%] w-[399px]">
@@ -478,7 +479,7 @@
 
 
         <!-- theme-toggler  -->
-        <button id="themeToggler" class="py-2 px-5 text-white bg-blue-600 rounded-lg absolute bottom-6 right-4">Click Me</button>
+        <button id="themeToggler" class="py-2 px-5 text-white bg-blue-700 rounded-l-full outline outline-gray-800 dark:outline-lime-50 absolute bottom-8 right-0">Light Mode</button>
 
     </main>
     <script src="./script.js"></script>
